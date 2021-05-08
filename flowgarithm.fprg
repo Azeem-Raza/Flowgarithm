@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="azeem"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-08 03:51:12 PM"/>
+        <attribute name="created" value="YXplZW07REVTS1RPUC1TREYwREtHOzIwMjEtMDUtMDg7MDM6MzU6MzYgUE07Mjg3OA=="/>
+        <attribute name="edited" value="YXplZW07REVTS1RPUC1TREYwREtHOzIwMjEtMDUtMDg7MDM6NTE6MTIgUE07MTsyOTc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="sub" type="Integer" array="False" size=""/>
+            <declare name="multiply" type="Integer" array="False" size=""/>
+            <output expression="&quot; Enter the value of a: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot; Enter the value of b: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot; Enter the value of c: &quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="sum" expression="a+b+c"/>
+            <assign variable="sub" expression="a-b-c"/>
+            <assign variable="multiply" expression="a*b*c"/>
+            <output expression="&quot;the sum of &quot;&amp; a &amp;&quot; and &quot; &amp; b &amp; &quot; and &quot; &amp; c &amp; &quot; is &quot; &amp; sum &amp; &quot;.&quot;" newline="True"/>
+            <output expression="&quot;the sub of &quot;&amp; a &amp;&quot; and &quot; &amp; b &amp; &quot; and &quot; &amp; c &amp; &quot; is &quot; &amp; sub &amp; &quot;.&quot;" newline="True"/>
+            <output expression="&quot;the multiply of &quot;&amp; a &amp;&quot; and &quot; &amp; b &amp; &quot; and &quot; &amp; c &amp; &quot; is &quot; &amp; multiply &amp; &quot;.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
